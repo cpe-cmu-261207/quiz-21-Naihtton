@@ -11,6 +11,7 @@ const loading = document.getElementById("div-loading-card");
 
 btn.onclick = () => {
   callApi();
+  loading.style.display = "";
 };
 
 async function callApi() {
